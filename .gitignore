@@ -1,0 +1,23 @@
+node_modules/
+dist/
+build/
+.env
+__pycache__/
+.pytest_cache/
+coverage/
+.DS_Store
+*.local
+
+# === appended by security scrub ===
+node_modules
+dist
+build
+.next
+.vite
+.env.local
+.env.*.local
+*.pem
+.vscode
+.idea
+*.log
+npm-debug.log*
